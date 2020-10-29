@@ -1,0 +1,17 @@
+Anotações para usar o Angular com Json-server
+
+iniciar servidor json-server na pasta backend na porta 3001
+Codigo:
+npm start
+
+iniciar servidor Angular 10.2 na pasta frontend na porta 4200
+Codigo:
+npm start
+
+configurando o sistema para o github page
+instalando o package:
+npm install -g angular-cli-ghpages
+configurando link:
+ng build --prod --base-href https://cleomilsonsales.github.io/Angular/frontend
+deploy para o git
+ngh --branch=main ou master

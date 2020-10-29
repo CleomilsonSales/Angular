@@ -1,0 +1,23 @@
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+    <form>
+        <!-- [(ngModel)] diretiva não estrutural - two way data bind
+            isso vai carregar os dados digitados no campo no objeto product do product desse componente ts-->
+        <mat-form-field>
+            <input matInput placeholder="Nome" 
+                [(ngModel)]="product.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)"
+                [(ngModel)]="product.price" name="price">
+        </mat-form-field>
+    </form>
+    
+    <button mat-raised-button (click) = "createProduct()" color="primary">
+        Salvar
+    </button>
+    
+    <button mat-raised-button (click) = "cancel()">
+        Cancelar
+    </button>
+</mat-card>

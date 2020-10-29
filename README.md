@@ -1,2 +1,2 @@
 # Angular
- Estudo de Angular 10.2 com Json-server
+ Estudos em Angular 10.2

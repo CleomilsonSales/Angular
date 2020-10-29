@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Computador Lenovo",
+      "price": "5200.89"
+    },
+    {
+      "id": 3,
+      "name": "Celular",
+      "price": 600.89
+    },
+    {
+      "id": 4,
+      "name": "Camisa",
+      "price": 60.81
+    },
+    {
+      "name": "Produto de teste",
+      "price": 125.8,
+      "id": 5
+    },
+    {
+      "name": "veio do form",
+      "price": "9.99",
+      "id": 6
+    },
+    {
+      "name": "LAPIS",
+      "price": "100.01",
+      "id": 7
+    },
+    {
+      "name": "mesa",
+      "price": "200.20",
+      "id": 8
+    }
+  ]
+}
