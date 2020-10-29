@@ -1,5 +1,7 @@
 # Angular
  Angular CLI 10.2 com TypeScript e Webservies com Json-server
+
+ Para analise usar o branches MAIN
  
 Iniciar servidor json-server na pasta backend na porta 3001
 Codigo:
